@@ -4,7 +4,7 @@ title: "ReconWatch"
 tagline: "Learning Cybersecurity in Public"
 description: "A cybersecurity blog with writeups, recon, and purple team insights."
 url: "https://reconwatch.me"
-baseurl: ""  # leave empty if publishing to root
+baseurl: ""  # root of domain
 
 author:
   name: "Bob"
@@ -13,9 +13,19 @@ author:
 markdown: kramdown
 paginate: 5
 paginate_path: /page:num/
+
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
+
+# Optional, but useful:
+permalink: /:categories/:title/
+timezone: Asia/Kolkata
+
+# Social media (optional)
+social:
+  github: 3-6-9-0d
+  email: reconwatch@proton.me
