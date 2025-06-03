@@ -12,10 +12,9 @@ author:
   alias: Bob
   email: reconwatch@proton.me
 
-theme_mode: auto  # auto switches light/dark based on device
+theme_mode: auto
 toc: true
 
-#change themes here 
 theme: jekyll-theme-minimal
 
 plugins:
