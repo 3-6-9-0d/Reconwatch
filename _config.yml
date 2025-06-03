@@ -3,7 +3,6 @@ tagline: Learning Cybersecurity in Public
 description: A cybersecurity blog with writeups, recon, and purple team insights.
 
 url: "https://reconwatch.me"
-baseurl: ""
 
 lang: en
 timezone: Asia/Kolkata
