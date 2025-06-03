@@ -1,27 +1,21 @@
-title: ReconWatch
-tagline: Learning Cybersecurity in Public
-description: A cybersecurity blog with writeups, recon, and purple team insights.
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
 
+title: "ReconWatch"
+tagline: "Learning Cybersecurity in Public"
+description: "A cybersecurity blog with writeups, recon, and purple team insights."
 url: "https://reconwatch.me"
-
-lang: en
-timezone: Asia/Kolkata
+baseurl: ""  # leave empty if publishing to root
 
 author:
-  alias: Bob
-  email: reconwatch@proton.me
-
-theme_mode: auto
-toc: true
-
-theme: jekyll-theme-minimal
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-include-cache
+  name: "Bob"
+  email: "reconwatch@proton.me"
 
 markdown: kramdown
 paginate: 5
+paginate_path: /page:num/
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
