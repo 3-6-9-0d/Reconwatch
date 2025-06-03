@@ -15,8 +15,8 @@ author:
 theme_mode: auto  # auto switches light/dark based on device
 toc: true
 
-# Remove this line if it exists:
-# theme: jekyll-theme-minimal
+#change themes here 
+theme: jekyll-theme-minimal
 
 plugins:
   - jekyll-feed
